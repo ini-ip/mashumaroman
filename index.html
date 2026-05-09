@@ -313,7 +313,21 @@ footer img{height:38px;filter:brightness(8);opacity:.6}
     <a href="#chara" class="hs">キャラ</a>
     <a href="#sns" class="hs">SNS</a>
     <a href="#contact" class="hs">CONTACT</a>
-    <a href="https://www.roblox.com/share?code=6c0cc28e1563cc43a8553e7815855adc&type=Profile&source=ProfileShare&stamp=1778321088839" target="_blank" class="nav-play"> PLAY</a></nav></header>
+    <a href="https://www.roblox.com/share?code=6c0cc28e1563cc43a8553e7815855adc&type=Profile&source=ProfileShare&stamp=1778321088839" target="_blank" class="nav-play"> PLAY</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="メニュー">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#" onclick="closeMenu()">TOP</a>
+  <a href="#game" onclick="closeMenu()">GAME</a>
+  <a href="#chara" onclick="closeMenu()">キャラ</a>
+  <a href="#sns" onclick="closeMenu()">SNS</a>
+  <a href="#contact" onclick="closeMenu()">CONTACT</a>
+  <a href="https://www.roblox.com/share?code=6c0cc28e1563cc43a8553e7815855adc&type=Profile&source=ProfileShare&stamp=1778321088839" target="_blank" class="nav-play" onclick="closeMenu()">PLAY</a>
+</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -545,12 +559,12 @@ footer img{height:38px;filter:brightness(8);opacity:.6}
     <div style="background:var(--cream);border:3px solid var(--dark);border-radius:24px;padding:2.5rem;box-shadow:6px 6px 0 var(--dark);text-align:center;margin-top:2rem" class="rv d2">
       <p style="font-family:'Dela Gothic One',sans-serif;font-size:.75rem;letter-spacing:.2em;color:var(--navy);margin-bottom:1.5rem">— つまり —</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-bottom:2rem">
-        <div style="background:#fff;border:3px solid var(--dark);border-radius:16px;padding:1.4rem;box-shadow:4px 4px 0 var(--dark)">
-          <p style="font-family:'Dela Gothic One',sans-serif;font-size:3rem;color:var(--red);line-height:1">5倍</p>
+        <div style="background:#fff;border:3px solid var(--dark);border-radius:16px;padding:1rem;box-shadow:4px 4px 0 var(--dark);text-align:center">
+          <p style="font-family:'Dela Gothic One',sans-serif;font-size:clamp(1.8rem,10vw,3rem);color:var(--red);line-height:1">5倍</p>
           <p style="font-size:.75rem;color:var(--navy);margin-top:.4rem;letter-spacing:.08em">クリエイター数（過去2年）</p>
         </div>
-        <div style="background:#fff;border:3px solid var(--dark);border-radius:16px;padding:1.4rem;box-shadow:4px 4px 0 var(--dark)">
-          <p style="font-family:'Dela Gothic One',sans-serif;font-size:3rem;color:var(--red);line-height:1">1.6億円</p>
+        <div style="background:#fff;border:3px solid var(--dark);border-radius:16px;padding:1rem;box-shadow:4px 4px 0 var(--dark);text-align:center">
+          <p style="font-family:'Dela Gothic One',sans-serif;font-size:clamp(1.8rem,10vw,3rem);color:var(--red);line-height:1">1.6億円</p>
           <p style="font-size:.75rem;color:var(--navy);margin-top:.4rem;letter-spacing:.08em">トップ1000の平均年収</p>
         </div>
       </div>
